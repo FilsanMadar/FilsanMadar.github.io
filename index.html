@@ -9,6 +9,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
+
+    <link rel="stylesheet" href="style.css"> 
   </head>
   <body>
     <header>
@@ -21,16 +23,111 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__items"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav__items"><a href="#" class="nav__link">About Me</a></li>
-          <li class="nav__items"><a href="#" class="nav__link">Projects</a></li>
+          <li class="nav__items">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__items">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__items">
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <section class="intro" id="home">
       <h1 class="section__title section__title--intro">
-        Hello, I am <strong>Filsan Madar</strong>
+        <strong>Filsan Madar</strong>
       </h1>
+      <p class="section__subtitle section__subtitle--into">full-stack developer</p>
+      <img src="img/nature-image-unsplash.jpg" alt="a random picture of nature" class="intro__img"
     </section>
+
+    <section class="my-projects" id="services">
+      <h2 class="section__title section__title--services">Available Services</h2>
+      <div class="services">
+        <div class="services">
+          <h3>Development and Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet, mea no ludus ubique complectitur. Has
+            ignota scaevola theophrastus ei, labores recusabo vis an, eu eum
+            urbanitas scripserit. Ea his commune theophrastus, ut nam lorem
+            tantas maluisset. Nostrud pericula nec no, mea unum soluta no.
+          </p>
+        </div>
+
+        <div class="services">
+          <h3>E-Commerce</h3>
+          <p>
+            Lorem ipsum dolor sit amet, mea no ludus ubique complectitur. Has
+            ignota scaevola theophrastus ei, labores recusabo vis an, eu eum
+            urbanitas scripserit. Ea his commune theophrastus, ut nam lorem
+            tantas maluisset. Nostrud pericula nec no, mea unum soluta no.
+          </p>
+        </div>
+      </div>
+
+
+    </section>
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About Me</h2>
+      <p class="section__subtitle section__subtitle--about"></p>
+
+      <div class="about-me__body">
+        <p>Lorem ipsum dolor sit amet, mea no ludus ubique complectitur. Has
+            ignota scaevola theophrastus ei, labores recusabo vis an, eu eum
+            urbanitas scripserit. Ea his commune theophrastus, ut nam lorem
+            tantas maluisset. Nostrud pericula nec no, mea unum soluta no.</p>
+        <p>Lorem ipsum dolor sit amet, mea no ludus ubique complectitur. Has
+            ignota scaevola theophrastus ei, labores recusabo vis an, eu eum
+            urbanitas scripserit. Ea his commune theophrastus, ut nam lorem
+            tantas maluisset. Nostrud pericula nec no, mea unum soluta no.</p>
+      </div>
+    </section>
+
+    <section class="my=projects" id="projects">
+      <h2></h2>
+      <p></p>
+
+      <div class="portfolio">
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/virtual-pet-amok.png"
+            alt="virtual-pet-amok"
+            class="portfolio__img"
+          />
+        </a>
+
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/virtual-pet-shelter.png"
+            alt="virtual-pet-amok"
+            class="portfolio__img"
+          />
+        </a>
+
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/virtual-pet.png"
+            alt="virtual-pet-amok"
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <a href="mailto:filsanmadar@gmail.com" class="footer__link"
+        >filsanmadar@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com">a</a></li>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://linkedin.com">b</a></li>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
